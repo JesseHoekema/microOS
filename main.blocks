@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="]0)xI93`Ahsy)?[PeqyU" x="299" y="-55"></block><block type="pxt-on-start" id="Um@2GzBC%OE1XMI0LA]C" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="3MA;_N^!cOr(QnJuAW!;"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="]0)xI93`Ahsy)?[PeqyU" x="299" y="-55"></block><block type="pxt-on-start" id="Um@2GzBC%OE1XMI0LA]C" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="~a/!WdI#_uQKBab62v7Y"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="_F|i!lZNfqRTpgsECce2"><value name="melody"><shadow type="melody_editor" id="UAvhw1zGcx88wn:^PwaK"><field name="melody">"G F G A - F E D "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="H_`Tj}CYiBcbr_y-t7)}"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_show_leds" id="3MA;_N^!cOr(QnJuAW!;"><field name="LEDS">`
         . . . . . 
         # . . . . 
         . . . . . 
@@ -106,7 +106,7 @@
         # . # . # 
         # . # . # 
         # . # . #
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id="JP]!kb+[PM#JdfsRiW+q" x="1826" y="1824"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="MBID1k6(r_7f`b=aSh0e"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id="JP]!kb+[PM#JdfsRiW+q" x="1826" y="1824"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="MBID1k6(r_7f`b=aSh0e"><field name="LEDS">`
         . . . . . 
         # . . . . 
         . . . . . 

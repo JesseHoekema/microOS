@@ -258,6 +258,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showString("Press Buttons A+B")
 })
+music.play(music.stringPlayable("G F G A - F E D ", 120), music.PlaybackMode.LoopingInBackground)
 basic.showLeds(`
     . . . . .
     # . . . .
